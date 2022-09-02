@@ -16,7 +16,19 @@
 		8089630828C2774E0083D501 /* CapsuleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089630728C2774E0083D501 /* CapsuleButtonView.swift */; };
 		8089630A28C277610083D501 /* RoundedRectangleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089630928C277610083D501 /* RoundedRectangleButtonView.swift */; };
 		8089630C28C277710083D501 /* SquareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089630B28C277710083D501 /* SquareButtonView.swift */; };
-		8089630F28C277990083D501 /* CalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089630E28C277990083D501 /* CalculatorEngine.swift */; };
+		80CF3C9328C2A160009758CC /* CircleCalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF3C9228C2A160009758CC /* CircleCalculatorEngine.swift */; };
+		80CF3C9528C2A1AB009758CC /* CapsuleCalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF3C9428C2A1AB009758CC /* CapsuleCalculatorEngine.swift */; };
+		80CF3C9728C2A205009758CC /* RectangleCalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF3C9628C2A205009758CC /* RectangleCalculatorEngine.swift */; };
+		80CF3C9928C2A246009758CC /* SquareCalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF3C9828C2A246009758CC /* SquareCalculatorEngine.swift */; };
+		80CF3CB228C2A482009758CC /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CA028C2A482009758CC /* WorkSans-SemiBold.ttf */; };
+		80CF3CB328C2A482009758CC /* WorkSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CA128C2A482009758CC /* WorkSans-ExtraBold.ttf */; };
+		80CF3CB428C2A482009758CC /* WorkSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CA228C2A482009758CC /* WorkSans-ExtraLight.ttf */; };
+		80CF3CB528C2A482009758CC /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CA328C2A482009758CC /* WorkSans-Bold.ttf */; };
+		80CF3CB728C2A482009758CC /* WorkSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CA528C2A482009758CC /* WorkSans-Black.ttf */; };
+		80CF3CBB28C2A482009758CC /* WorkSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CA928C2A482009758CC /* WorkSans-Light.ttf */; };
+		80CF3CBC28C2A482009758CC /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CAA28C2A482009758CC /* WorkSans-Thin.ttf */; };
+		80CF3CBD28C2A482009758CC /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CAB28C2A482009758CC /* WorkSans-Regular.ttf */; };
+		80CF3CBE28C2A482009758CC /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CF3CAC28C2A482009758CC /* WorkSans-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +42,20 @@
 		8089630728C2774E0083D501 /* CapsuleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonView.swift; sourceTree = "<group>"; };
 		8089630928C277610083D501 /* RoundedRectangleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleButtonView.swift; sourceTree = "<group>"; };
 		8089630B28C277710083D501 /* SquareButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButtonView.swift; sourceTree = "<group>"; };
-		8089630E28C277990083D501 /* CalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEngine.swift; sourceTree = "<group>"; };
+		80CF3C9228C2A160009758CC /* CircleCalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCalculatorEngine.swift; sourceTree = "<group>"; };
+		80CF3C9428C2A1AB009758CC /* CapsuleCalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleCalculatorEngine.swift; sourceTree = "<group>"; };
+		80CF3C9628C2A205009758CC /* RectangleCalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCalculatorEngine.swift; sourceTree = "<group>"; };
+		80CF3C9828C2A246009758CC /* SquareCalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCalculatorEngine.swift; sourceTree = "<group>"; };
+		80CF3CA028C2A482009758CC /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-SemiBold.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		80CF3CA128C2A482009758CC /* WorkSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-ExtraBold.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		80CF3CA228C2A482009758CC /* WorkSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-ExtraLight.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		80CF3CA328C2A482009758CC /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-Bold.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		80CF3CA528C2A482009758CC /* WorkSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-Black.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-Black.ttf"; sourceTree = "<group>"; };
+		80CF3CA928C2A482009758CC /* WorkSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-Light.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-Light.ttf"; sourceTree = "<group>"; };
+		80CF3CAA28C2A482009758CC /* WorkSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-Thin.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-Thin.ttf"; sourceTree = "<group>"; };
+		80CF3CAB28C2A482009758CC /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-Regular.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		80CF3CAC28C2A482009758CC /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WorkSans-Medium.ttf"; path = "../../../Downloads/Work_Sans/static/WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		80CF3CBF28C2A4CD009758CC /* Lab-01-MultiCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lab-01-MultiCounter-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,7 @@
 		808962E828C2755D0083D501 = {
 			isa = PBXGroup;
 			children = (
+				80CF3C9A28C2A45F009758CC /* Fonts */,
 				8089630D28C2777C0083D501 /* Functionality */,
 				8089630228C275660083D501 /* Views */,
 				808962F328C2755D0083D501 /* Lab-01_MultiCounter */,
@@ -65,6 +91,7 @@
 		808962F328C2755D0083D501 /* Lab-01_MultiCounter */ = {
 			isa = PBXGroup;
 			children = (
+				80CF3CBF28C2A4CD009758CC /* Lab-01-MultiCounter-Info.plist */,
 				808962F428C2755D0083D501 /* Lab_01_MultiCounterApp.swift */,
 				808962F628C2755D0083D501 /* ContentView.swift */,
 				808962F828C275600083D501 /* Assets.xcassets */,
@@ -96,9 +123,28 @@
 		8089630D28C2777C0083D501 /* Functionality */ = {
 			isa = PBXGroup;
 			children = (
-				8089630E28C277990083D501 /* CalculatorEngine.swift */,
+				80CF3C9828C2A246009758CC /* SquareCalculatorEngine.swift */,
+				80CF3C9228C2A160009758CC /* CircleCalculatorEngine.swift */,
+				80CF3C9428C2A1AB009758CC /* CapsuleCalculatorEngine.swift */,
+				80CF3C9628C2A205009758CC /* RectangleCalculatorEngine.swift */,
 			);
 			path = Functionality;
+			sourceTree = "<group>";
+		};
+		80CF3C9A28C2A45F009758CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				80CF3CA528C2A482009758CC /* WorkSans-Black.ttf */,
+				80CF3CA328C2A482009758CC /* WorkSans-Bold.ttf */,
+				80CF3CA128C2A482009758CC /* WorkSans-ExtraBold.ttf */,
+				80CF3CA228C2A482009758CC /* WorkSans-ExtraLight.ttf */,
+				80CF3CA928C2A482009758CC /* WorkSans-Light.ttf */,
+				80CF3CAC28C2A482009758CC /* WorkSans-Medium.ttf */,
+				80CF3CAB28C2A482009758CC /* WorkSans-Regular.ttf */,
+				80CF3CA028C2A482009758CC /* WorkSans-SemiBold.ttf */,
+				80CF3CAA28C2A482009758CC /* WorkSans-Thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 808962EC28C2755D0083D501 /* Build configuration list for PBXProject "Lab-01_MultiCounter" */;
+			buildConfigurationList = 808962EC28C2755D0083D501 /* Build configuration list for PBXProject "MultiCounter" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +205,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CF3CBD28C2A482009758CC /* WorkSans-Regular.ttf in Resources */,
+				80CF3CB728C2A482009758CC /* WorkSans-Black.ttf in Resources */,
+				80CF3CB328C2A482009758CC /* WorkSans-ExtraBold.ttf in Resources */,
+				80CF3CBC28C2A482009758CC /* WorkSans-Thin.ttf in Resources */,
 				808962FC28C275600083D501 /* Preview Assets.xcassets in Resources */,
+				80CF3CB428C2A482009758CC /* WorkSans-ExtraLight.ttf in Resources */,
+				80CF3CB528C2A482009758CC /* WorkSans-Bold.ttf in Resources */,
+				80CF3CBE28C2A482009758CC /* WorkSans-Medium.ttf in Resources */,
+				80CF3CB228C2A482009758CC /* WorkSans-SemiBold.ttf in Resources */,
+				80CF3CBB28C2A482009758CC /* WorkSans-Light.ttf in Resources */,
 				808962F928C275600083D501 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,11 +226,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CF3C9928C2A246009758CC /* SquareCalculatorEngine.swift in Sources */,
 				8089630A28C277610083D501 /* RoundedRectangleButtonView.swift in Sources */,
-				8089630F28C277990083D501 /* CalculatorEngine.swift in Sources */,
+				80CF3C9328C2A160009758CC /* CircleCalculatorEngine.swift in Sources */,
 				8089630828C2774E0083D501 /* CapsuleButtonView.swift in Sources */,
 				808962F728C2755D0083D501 /* ContentView.swift in Sources */,
+				80CF3C9528C2A1AB009758CC /* CapsuleCalculatorEngine.swift in Sources */,
 				808962F528C2755D0083D501 /* Lab_01_MultiCounterApp.swift in Sources */,
+				80CF3C9728C2A205009758CC /* RectangleCalculatorEngine.swift in Sources */,
 				8089630628C277250083D501 /* CircleButtonView.swift in Sources */,
 				8089630428C275900083D501 /* LabelView.swift in Sources */,
 				8089630C28C277710083D501 /* SquareButtonView.swift in Sources */,
@@ -310,6 +368,7 @@
 				DEVELOPMENT_TEAM = M525S4B69N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lab-01-MultiCounter-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +398,7 @@
 				DEVELOPMENT_TEAM = M525S4B69N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lab-01-MultiCounter-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -360,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		808962EC28C2755D0083D501 /* Build configuration list for PBXProject "Lab-01_MultiCounter" */ = {
+		808962EC28C2755D0083D501 /* Build configuration list for PBXProject "MultiCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				808962FD28C275600083D501 /* Debug */,

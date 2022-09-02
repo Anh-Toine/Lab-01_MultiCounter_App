@@ -8,22 +8,26 @@
 import SwiftUI
 
 struct RoundedRectangleButtonView: View {
-	@StateObject var engine: CalculatorEngine = CalculatorEngine()
+	@StateObject var engine: RectangleCalculatorEngine = RectangleCalculatorEngine()
+	var label: String
     var body: some View {
-		Text("\(engine.product)")
-			.font(.largeTitle)
-			.fontWeight(.bold)
-			.foregroundColor(.white)
-			.frame(width: 120, height: 70)
-			.background(Color(.systemRed))
-			.cornerRadius(10)
-			.onTapGesture(perform: engine.multiply)
-			.onLongPressGesture(perform: engine.resetRoundRectangle)
+		VStack{
+			Text("\(engine.product)")
+				.font(.custom("WorkSans-Bold", size: 30))
+				.foregroundColor(.white)
+				.frame(width: 120, height: 70)
+				.background(Color(.systemRed))
+				.cornerRadius(10)
+				.onTapGesture(perform: engine.multiply)
+				.onLongPressGesture(perform: engine.resetRoundRectangle)
+		
+			LabelView(labelText: label)
+		}
     }
 }
 
 struct RoundedRectangleButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        RoundedRectangleButtonView()
+        RoundedRectangleButtonView(label: "Indef")
     }
 }

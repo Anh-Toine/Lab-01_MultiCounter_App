@@ -11,9 +11,8 @@ struct LabelView: View {
 	var labelText: String
     var body: some View {
 		Text(labelText)
-			.font(.caption)
-			.fontWeight(.bold)
-			.foregroundColor(Color(.systemGray))
+			.font(.custom("WorkSans-Bold", size: 12))
+			.foregroundColor(Color(.systemGray2))
 			.kerning(2)
 			.padding(.top, 13)
 			.padding(.bottom, 13)

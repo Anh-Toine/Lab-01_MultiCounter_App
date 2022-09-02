@@ -9,33 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-		VStack {
-			Text("Tuan's MultiCounter App")
-				.font(.title2)
+		ZStack{
+			//Color(.systemPurple)
+			VStack {
+
+				Text("Tuan's MultiCounter App")
+				.font(.custom("WorkSans-Bold", size: 27))
 				.fontWeight(.bold)
 				.foregroundColor(.indigo)
-			HStack {
-				VStack {
-					CircleButtonView()
-					LabelView(labelText: "Add")
-				}
-				VStack {
-					CapsuleButtonView()
-					LabelView(labelText: "Subtract")
-				}
+				.padding()
+				
+					HStack{
+						CircleButtonView(label: "Add")
+						CapsuleButtonView(label: "Subtract")
+					}
+					HStack{
+						RoundedRectangleButtonView(label:"Multiply")
+						SquareButtonView(label: "Square")
+					}
 			}
-			HStack {
-				VStack {
-					RoundedRectangleButtonView()
-					LabelView(labelText: "Multiply")
-				}
-				VStack {
-					SquareButtonView()
-					LabelView(labelText: "Square")
-				}
+			.padding()
 			}
 		}
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {

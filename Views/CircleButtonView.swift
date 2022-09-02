@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct CircleButtonView: View {
-	@StateObject var engine: CalculatorEngine = CalculatorEngine()
+	@StateObject var engine: CircleCalculatorEngine = CircleCalculatorEngine()
+	var label: String
 	var body: some View {
-		Text("\(engine.sum)")
-			.font(.largeTitle)
-			.fontWeight(.bold)
-			.foregroundColor(.white)
-			.frame(width: 100, height: 100)
-			.background(Color(.systemYellow))
-			.clipShape(Circle())
-			.onTapGesture(perform: engine.add)
-			.onLongPressGesture(perform: engine.resetCircle)
-			
+		VStack{
+			Text("\(engine.total)")
+				.font(.custom("WorkSans-Bold", size: 30))
+				.foregroundColor(.white)
+				.frame(width: 100, height: 100)
+				.background(Color(.systemYellow))
+				.clipShape(Circle())
+				.onTapGesture(perform: engine.add)
+				.onLongPressGesture(perform: engine.resetCircle)
+			LabelView(labelText: label)
+		}
 	}
 }
 
 struct CircleButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleButtonView()
+		CircleButtonView(label: "Indef")
     }
 }

@@ -8,21 +8,25 @@
 import SwiftUI
 
 struct SquareButtonView: View {
-	@StateObject var engine: CalculatorEngine = CalculatorEngine()
+	@StateObject var engine: SquareCalculatorEngine = SquareCalculatorEngine()
+	var label: String
     var body: some View {
-		Text("\(engine.squared)")
-			.font(.largeTitle)
-			.fontWeight(.bold)
-			.foregroundColor(.white)
-			.frame(width: 100, height: 100)
-			.background(Color(.systemMint))
-			.onTapGesture(perform: engine.square)
-			.onLongPressGesture(perform: engine.resetSquare)
+		VStack{
+			Text("\(engine.squared)")
+				.font(.custom("WorkSans-Bold", size: 30))
+				.foregroundColor(.white)
+				.frame(width: 100, height: 100)
+				.background(Color(.systemMint))
+				.onTapGesture(perform: engine.square)
+				.onLongPressGesture(perform: engine.resetSquare)
+		
+			LabelView(labelText: label)
+		}
     }
 }
 
 struct SquareButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        SquareButtonView()
+        SquareButtonView(label: "Indef")
     }
 }
