@@ -10,13 +10,14 @@ import SwiftUI
 struct CapsuleButtonView: View {
 	@StateObject var engine: CapsuleCalculatorEngine = CapsuleCalculatorEngine()
 	var label: String
+	var color: Color
     var body: some View {
 		VStack{
 			Text("\(engine.difference)")
 				.font(.custom("WorkSans-Bold", size: 30))
 				.foregroundColor(.white)
 				.frame(width: 100, height: 50)
-				.background(Color(.systemBlue))
+				.background(color)
 				.clipShape(Capsule())
 				.onTapGesture(perform: engine.subtract)
 				.onLongPressGesture(perform: engine.resetCapsule)
@@ -28,6 +29,6 @@ struct CapsuleButtonView: View {
 
 struct CapsuleButtonView_Previews: PreviewProvider {
     static var previews: some View {
-		CapsuleButtonView(label: "Indef")
+		CapsuleButtonView(label: "Indef", color: Color.blue)
     }
 }

@@ -16,6 +16,7 @@
 		8089630828C2774E0083D501 /* CapsuleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089630728C2774E0083D501 /* CapsuleButtonView.swift */; };
 		8089630A28C277610083D501 /* RoundedRectangleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089630928C277610083D501 /* RoundedRectangleButtonView.swift */; };
 		8089630C28C277710083D501 /* SquareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089630B28C277710083D501 /* SquareButtonView.swift */; };
+		80B46F0628C3E93100A91ADC /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B46F0528C3E93100A91ADC /* CustomColor.swift */; };
 		80CF3C9328C2A160009758CC /* CircleCalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF3C9228C2A160009758CC /* CircleCalculatorEngine.swift */; };
 		80CF3C9528C2A1AB009758CC /* CapsuleCalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF3C9428C2A1AB009758CC /* CapsuleCalculatorEngine.swift */; };
 		80CF3C9728C2A205009758CC /* RectangleCalculatorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF3C9628C2A205009758CC /* RectangleCalculatorEngine.swift */; };
@@ -42,6 +43,7 @@
 		8089630728C2774E0083D501 /* CapsuleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonView.swift; sourceTree = "<group>"; };
 		8089630928C277610083D501 /* RoundedRectangleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleButtonView.swift; sourceTree = "<group>"; };
 		8089630B28C277710083D501 /* SquareButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButtonView.swift; sourceTree = "<group>"; };
+		80B46F0528C3E93100A91ADC /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		80CF3C9228C2A160009758CC /* CircleCalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCalculatorEngine.swift; sourceTree = "<group>"; };
 		80CF3C9428C2A1AB009758CC /* CapsuleCalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleCalculatorEngine.swift; sourceTree = "<group>"; };
 		80CF3C9628C2A205009758CC /* RectangleCalculatorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCalculatorEngine.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		8089630228C275660083D501 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				80B46F0428C3E91600A91ADC /* Colors */,
 				8089630328C275900083D501 /* LabelView.swift */,
 				8089630528C277250083D501 /* CircleButtonView.swift */,
 				8089630728C2774E0083D501 /* CapsuleButtonView.swift */,
@@ -129,6 +132,14 @@
 				80CF3C9628C2A205009758CC /* RectangleCalculatorEngine.swift */,
 			);
 			path = Functionality;
+			sourceTree = "<group>";
+		};
+		80B46F0428C3E91600A91ADC /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				80B46F0528C3E93100A91ADC /* CustomColor.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 		80CF3C9A28C2A45F009758CC /* Fonts */ = {
@@ -228,6 +239,7 @@
 			files = (
 				80CF3C9928C2A246009758CC /* SquareCalculatorEngine.swift in Sources */,
 				8089630A28C277610083D501 /* RoundedRectangleButtonView.swift in Sources */,
+				80B46F0628C3E93100A91ADC /* CustomColor.swift in Sources */,
 				80CF3C9328C2A160009758CC /* CircleCalculatorEngine.swift in Sources */,
 				8089630828C2774E0083D501 /* CapsuleButtonView.swift in Sources */,
 				808962F728C2755D0083D501 /* ContentView.swift in Sources */,

@@ -10,13 +10,14 @@ import SwiftUI
 struct SquareButtonView: View {
 	@StateObject var engine: SquareCalculatorEngine = SquareCalculatorEngine()
 	var label: String
+	var color: Color
     var body: some View {
 		VStack{
 			Text("\(engine.squared)")
 				.font(.custom("WorkSans-Bold", size: 30))
 				.foregroundColor(.white)
 				.frame(width: 100, height: 100)
-				.background(Color(.systemMint))
+				.background(color)
 				.onTapGesture(perform: engine.square)
 				.onLongPressGesture(perform: engine.resetSquare)
 		
@@ -27,6 +28,6 @@ struct SquareButtonView: View {
 
 struct SquareButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        SquareButtonView(label: "Indef")
+		SquareButtonView(label: "Indef", color: Color.mint)
     }
 }

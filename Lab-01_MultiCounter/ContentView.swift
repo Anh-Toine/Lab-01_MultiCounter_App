@@ -10,22 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 		ZStack{
-			//Color(.systemPurple)
+			Color(UIColor(CustomColor.color7))
 			VStack {
 
 				Text("Tuan's MultiCounter App")
 				.font(.custom("WorkSans-Bold", size: 27))
 				.fontWeight(.bold)
-				.foregroundColor(.indigo)
+				.foregroundColor(CustomColor.color6)
 				.padding()
 				
 					HStack{
-						CircleButtonView(label: "Add")
-						CapsuleButtonView(label: "Subtract")
+						CircleButtonView(label: "Add", color: CustomColor.color2)
+						CapsuleButtonView(label: "Subtract", color: CustomColor.color3)
 					}
 					HStack{
-						RoundedRectangleButtonView(label:"Multiply")
-						SquareButtonView(label: "Square")
+						RoundedRectangleButtonView(label:"Multiply", color: CustomColor.color4)
+						SquareButtonView(label: "Square", color: CustomColor.color1)
 					}
 			}
 			.padding()
