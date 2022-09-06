@@ -18,7 +18,7 @@ struct ContentView: View {
 				.fontWeight(.bold)
 				.foregroundColor(CustomColor.color6)
 				.padding()
-				
+
 					HStack{
 						CircleButtonView(label: "Add", color: CustomColor.color2)
 						CapsuleButtonView(label: "Subtract", color: CustomColor.color3)
